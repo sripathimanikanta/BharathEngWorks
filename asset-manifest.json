@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/BharathEngWorks/static/css/main.1baf486c.css",
+    "main.js": "/BharathEngWorks/static/js/main.eedbaab4.js",
+    "static/js/787.6bb9d96b.chunk.js": "/BharathEngWorks/static/js/787.6bb9d96b.chunk.js",
+    "static/media/image-product-1.jpg": "/BharathEngWorks/static/media/image-product-1.ad821211f3ffd09789ed.jpg",
+    "static/media/logo.svg": "/BharathEngWorks/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/BharathEngWorks/index.html",
+    "main.1baf486c.css.map": "/BharathEngWorks/static/css/main.1baf486c.css.map",
+    "main.eedbaab4.js.map": "/BharathEngWorks/static/js/main.eedbaab4.js.map",
+    "787.6bb9d96b.chunk.js.map": "/BharathEngWorks/static/js/787.6bb9d96b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1baf486c.css",
+    "static/js/main.eedbaab4.js"
+  ]
+}
