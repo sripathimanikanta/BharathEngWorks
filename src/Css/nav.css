@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Playfair+Display:wght@400;500;700&family=Poppins:wght@400;700&display=swap");
+.Flex-container {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 2em;
+  align-items: center;
+  gap: 2em;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .open-nav {
+    transform: translateX(0%) !important;
+    box-shadow: 50vw 0 0em 0em rgba(53, 53, 53, 0.8);
+  }
+  .menu {
+    cursor: pointer;
+  }
+  .menu-bar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: white;
+    width: 70vw;
+    height: 100vh;
+    z-index: 99;
+    transform: translateX(-100%);
+    transition: transform 0.5s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  .menu-bar .close {
+    cursor: pointer;
+    position: absolute;
+    top: 1.5em;
+    left: 1em;
+  }
+  .menu-bar ul {
+    margin-top: 4em;
+  }
+  .menu-bar ul li {
+    margin: 1em;
+    list-style-type: none;
+  }
+  .menu-bar ul li a {
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+  hr {
+    display: none;
+  }
+}
+@media only screen and (min-width: 801px) {
+  .name-logo {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .menu {
+    display: none;
+  }
+  .menu-bar {
+    margin-left: 2em;
+  }
+  .menu-bar .close {
+    display: none;
+  }
+  .menu-bar ul {
+    display: flex;
+    gap: 2em;
+  }
+  .menu-bar ul li {
+    list-style-type: none;
+  }
+  .menu-bar ul li a {
+    color: rgb(96, 96, 96) !important;
+    text-decoration: none;
+  }
+}
+.name-logo {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.comp-name {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: -0.1em;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  text-decoration: unset;
+}
+
+.namebox {
+  display: flex;
+  justify-self: unset;
+}
+
+.fl-end {
+  justify-self: unset;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+}
+
+.avatar-image {
+  width: 2em;
+  height: 2em;
+}
+
+.cart-box-small {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.Nber {
+  box-sizing: content-box;
+  position: absolute;
+  text-align: center;
+  background-color: orangered;
+  border-radius: 50%;
+  right: -30%;
+  top: -40%;
+  padding: 0.2em;
+  width: 1.5em;
+  height: 1.5em;
+  font-size: 0.6em;
+  color: white;
+  font-weight: 600;
+}
+
+.active {
+  color: #ff7d1b;
+  text-decoration: none;
+}
+
+hr {
+  color: rgb(96, 96, 96);
+}/*# sourceMappingURL=nav.css.map */
