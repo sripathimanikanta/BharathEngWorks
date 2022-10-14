@@ -12,7 +12,7 @@ const listOfPages = [
 }, 
 {
   page: "Products",
-to: "/products"
+to: "products"
 }, 
 {
   page: "About",

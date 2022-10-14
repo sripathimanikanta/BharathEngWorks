@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer-container {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: rgb(45, 171, 180);
+  color: white;
+  padding: 1em;
+}
+
+.flex-container {
+  display: flex;
+  padding: 1em;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: rgb(7, 69, 53);
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  line-height: 1.6rem;
+  font-size: 1.1rem;
+  padding-left: 1em;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.copyright {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: rgb(10, 69, 69);
+}
+a:hover {
+  color: rgb(60, 102, 58);
+}/*# sourceMappingURL=footer.css.map */
